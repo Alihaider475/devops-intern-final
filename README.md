@@ -82,16 +82,7 @@ print("Hello, DevOps!")
 
 Git was initialized and the project was connected to the GitHub repository.
 
-Example commands:
 
-```bash
-git init
-git add .
-git commit -m "Initial commit"
-git branch -M main
-git remote add origin <GITHUB_REPOSITORY_URL>
-git push -u origin main
-```
 
 ### Verification
 
