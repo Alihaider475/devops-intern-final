@@ -1,20 +1,26 @@
 Grafana Loki Setup
 ==================
 
-Loki was started using Docker:
+1. Loki was started using Docker:
 
 docker run -d --name loki -p 3100:3100 grafana/loki:latest
 
-Loki URL:
+2. Loki is available at:
+
 http://localhost:3100
 
-Health check:
+3. Loki health was checked using:
+
 http://localhost:3100/ready
 
-The response "ready" confirms that Loki is running.
+4. The response was:
 
-Check Loki container:
+ready
+
+5. Loki container status was checked using:
+
 docker ps
 
-Check Loki logs:
+6. Loki logs can be viewed using:
+
 docker logs loki
